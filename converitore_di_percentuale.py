@@ -1,6 +1,5 @@
 #questo programma si basa su come si calcola una percentuale 
-#questo programma sara un calcolatore di prcentulae
-
+#questo programma sara un calcolatore di percentuale
 
 print("********CALCOLATORE DI PERCENTUALE********\n")
 
