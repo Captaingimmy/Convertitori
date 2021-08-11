@@ -1,0 +1,78 @@
+#questo e un programma di conversione di valute 
+titolo = 'COVERTITORE DI VALUTE\n'
+print(titolo.center(150))
+
+menu = 'MENU'
+print(menu.center(150))
+euro_to_dollars = 'euro to dollars'
+print(euro_to_dollars.center(150))
+dollars_to_euros= 'dollars to euro'
+print(dollars_to_euros.center(150))
+yen_to_dollars = 'yen to dollars'
+print(yen_to_dollars.center(150))
+pounds_to_dollars='pounds to dollars'
+print(pounds_to_dollars.center(150))
+lira_italiana_to_euros =' lira italiana to euros'
+print(lira_italiana_to_euros.center(150))
+rupia_to_euros = 'rupia to euros'
+print(rupia_to_euros.center(150))
+rublo_to_euros = 'rublo to euros'
+print(rublo_to_euros.center(150))
+print('\n')
+
+risposta = input('dimmi che valuta vuoi convertire in? ')
+
+
+#es:
+#euro in dollari
+#1€ == 1,17$
+if risposta == 'euro to dollars':
+    ris = int(input('euro da convertire in dollari== '))
+    risultato = ris * 1.17
+    print('risultato == ' + str(risultato) + str(' $'))
+
+#es1:
+#dollari in euro
+#1$ == 0.85€
+if risposta == 'dollars to euros':
+    ris = int(input('dollari da convertire in euro== '))
+    risultato = ris*0.85
+    print('risultato == ' + str(risultato) + str(' €'))
+
+#es2:
+#yen to dollars
+#1yen=0,0090$
+if risposta == 'yen to dollars':
+    ris = int(input('yen da convertire in dollari== '))
+    risultato = ris * 0.0090
+    print('risultato == ' + str(risultato) + str(' $'))
+
+#es3:
+#1 pounds == 1,38$
+if risposta == 'pounds to dollars':
+    ris = int(input('sterline da convertire in dollari== '))
+    risultato = ris * 1.38
+    print('risultato =' + str(risultato) + str(' $'))
+
+#es4
+#1lira italiana = 0.52 euro
+if risposta == 'lira italiana to euros':
+    ris = int(input('lire da convertire in euro== '))
+    risultato = ris * 0.52
+    print('risultato== ' + str(risultato) + str(' €') )
+
+#es5
+#1 rupia indiana to euro 
+#1 rupia == 0.011 euro
+if risposta == 'rupia to euros':
+    ris = int(input('quante erupie vuoi convertire in euro? '))
+    risultato = ris * 0.011 + 0.001
+    print('risultato ==' +str("%.3f"  % risultato) + str(' €'))
+
+#es5
+#1 rublo russo to euro
+#1 rublo == 0.012
+if risposta  == 'rublo to euros':
+    ris = int(input('quanti rubli vuoi convertire in euro? '))
+    risultato = ris * 0.012
+    print('risultato == ' + str("%.3f"  % risultato) + str(' €'))
