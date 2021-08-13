@@ -30,7 +30,7 @@ int main() {
 		printf("quanti dollari vuoi convertire in euro? ");
 	    scanf("%f",&ris);
 		risultato = ris * 0.85;
-		printf(" il risultato e %f€",risultato);
+		printf(" il risultato e %.2f€",risultato);
 		
 	}
 	if(risposta[0] == 'e'){
@@ -38,7 +38,7 @@ int main() {
 		printf("quanti euro vuoi convertire in dollari? ");
 	    scanf("%f",&ris);
 		risultato = ris * 1.17;
-		printf("il risultato e %f$",risultato);
+		printf("il risultato e %.2f$",risultato);
 		
 	}
 		
